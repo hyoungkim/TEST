@@ -47,4 +47,11 @@
         android:layout_toLeftOf="@+id/button2"
         android:text="Switch" />
 
+    <AnalogClock
+        android:id="@+id/analogClock1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/switch1"
+        android:layout_below="@+id/switch1" />
+
 </RelativeLayout>
